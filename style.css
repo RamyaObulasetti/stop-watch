@@ -1,0 +1,55 @@
+/* Basic styling for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('https://img.freepik.com/premium-vector/abstract-futuristic-technology-background-perspective-view-digital-number-timer-countdown-concept_4974-238.jpg');
+  background-size: cover; /* Ensure the background covers the entire page */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  font-size: 16px;
+}
+
+.display {
+  font-size: 2em;
+  margin-bottom: 10px;
+  width: 400px;
+  height: 50px;
+}
+
+/* Container for the stopwatch */
+.stopwatch {
+  text-align: center;
+    /* Aqua background with some transparency */
+  border: 1px solid black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Controls area containing buttons */
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for all buttons */
+button {
+  font-size: 1em;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
